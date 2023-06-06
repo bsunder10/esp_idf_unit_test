@@ -9,7 +9,7 @@
 TEST_CASE("Test Addition", "[arthematics]")
 {
     int expected = 10 + 6;
-    TEST_ASSERT_EQUAL_INT(expected, add(10, 5));
+    TEST_ASSERT_EQUAL_INT(expected, add(10, 6));
 }
 
 

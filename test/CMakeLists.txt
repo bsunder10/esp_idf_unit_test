@@ -8,7 +8,10 @@ set(EXTRA_COMPONENT_DIRS "../components")
 #     TEST_COMPONENTS "arthematics"
 #     CACHE STRING "List of Components to test"
 # )
-set(TEST_COMPONENTS "arthematics")
+set(
+    TEST_COMPONENTS 
+        "arthematics" "gpios"
+)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(esp_idf_unit_testing_test)

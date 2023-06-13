@@ -1,0 +1,10 @@
+#ifndef _COMPONENTS_GPIOS_INCLUDE_GPIOS_CONFIG_H_
+#define _COMPONENTS_GPIOS_INCLUDE_GPIOS_CONFIG_H_
+
+
+#include "driver/gpio.h"
+
+#define GPIO_PIN    GPIO_NUM_2
+
+
+#endif  /* _COMPONENTS_GPIOS_INCLUDE_GPIOS_CONFIG_H_ */
